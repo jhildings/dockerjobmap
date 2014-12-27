@@ -1,0 +1,29 @@
+{
+  "name": "dockerjobmap",
+  "version": "1.0.0",
+  "description": "docker with angel list api for job map",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhildings/dockerjobmap.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "angel"
+  ],
+  "author": "Johannes",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/jhildings/dockerjobmap/issues"
+  },
+  "homepage": "https://github.com/jhildings/dockerjobmap",
+  "dependencies": {
+    "request": "^2.51.0",
+    "restify": "^2.8.4"
+  }
+}
